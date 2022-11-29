@@ -14,11 +14,6 @@
 </p>
 
 
-<p align="center">
-EmailFinder is designed to find company emails that are filtered by search engines. This is done by searching for @company.com. The goal has to be to have the minimum amount of emails in the search engines.
-</p>
-<br/>
-
 
 ## Installation:
 
@@ -32,21 +27,14 @@ Upgrades are also available using:
 > pip3 install emailfinder --upgrade
 ```
 
-## Search Engines
 
-* google: Ok (note cookies policy and Captcha!).
-* bing: OK.
-* baidu: OK (few requests).
-* bing: Hunting Robots very fast.
 
-## Usage 
 
-EmailFinder can be used in 2 ways:
 
-### CLI
-```
-emailfinder -d domain.com
-```
+
+
+
+
 
 ```
 emailfinder -d domain.com -p http://127.0.0.1:8080
@@ -78,6 +66,3 @@ This project has been developed by:
 * **Josué Encinar García** -- [@JosueEncinar](https://twitter.com/JosueEncinar)
 
 
-# Disclaimer!
-
-The software is designed to check a company's emails found in the search engines. The author is not responsible for any illegitimate use.
